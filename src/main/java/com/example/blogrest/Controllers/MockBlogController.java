@@ -33,11 +33,10 @@ public class MockBlogController {
 
     @PostMapping("/blog")
     public Blog create(@RequestBody Map<String, String> body) {
-        int id = Integer.parseInt(body.get("id"));
         String title = body.get("title");
         String content = body.get("content");
 
-        return blogMockedData.createBlog(id, title, content);
+        return blogMockedData.createBlog(title, content);
     }
 
     @PutMapping("/blog/{id}")

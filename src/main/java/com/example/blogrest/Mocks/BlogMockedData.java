@@ -84,7 +84,8 @@ public class BlogMockedData {
     }
 
     // create blog
-    public Blog createBlog(int id, String title, String content) {
+    public Blog createBlog(String title, String content) {
+        int id = blogs.size() + 1;
         Blog newBlog = new Blog(id, title, content);
         blogs.add(newBlog);
         return newBlog;
