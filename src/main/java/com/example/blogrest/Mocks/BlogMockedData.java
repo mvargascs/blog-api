@@ -43,6 +43,14 @@ public class BlogMockedData {
         blogs.add(new Blog(5, "7 ways the Assistant can help you get ready for Turkey Day",
                 "Thanksgiving is just a few days away and, as always, your Google Assistant is ready to help. " +
                         "So while the turkey cooks and the family gathers, here are some questions to ask your Assistant."));
+        blogs.add(new Blog(6, "Microsoft CEO says encryption back doors are a 'terrible idea'",
+                "As Apple squares off for another encryption fight, Microsoft CEO Satya Nadella offered mixed messages on the encryption question. " +
+                        "In a Monday meeting with reporters in New York, Nadella reiterated the company’s opposition to encryption back doors, " +
+                        "but expressed tentative support for legal and technical solutions in the future."));
+        blogs.add(new Blog(7, "Tesla hacking competition offers $1 million and free car if someone can hijack Model 3",
+                "Electric automaker Tesla has once again challenged hackers to find bugs in its connected cars. " +
+                        "The Elon Musk-run company is returning to the annual hackers' competition \"Pwn20wn\" to be held in Vancouver in March, reports electrek. " +
+                        "Some Model 3 cars and $1 million in award money will be up for grabs."));
     }
 
     // return all blogs
